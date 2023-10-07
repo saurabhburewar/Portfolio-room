@@ -1,0 +1,61 @@
+.tvcontent {
+    width: 15.25vw;
+    height: 15vh;
+    border-radius: 3px;
+    font-size: 2vw;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.tvbox {
+    background: radial-gradient(circle, #0f0e1d, rgba(0, 0, 0, 0.95));
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.tvsection {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tvsectioninside {
+    position: relative;
+    width: 90%;
+    height: 90%;
+}
+
+.tvsectionimg {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+}
+.tvsectionimg img {
+    width: 100%;
+}
+
+.tvsectiontitle {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 40%;
+    font-size: 0.4vw;
+    color: #aaa9ad;
+}
+
+.tvsectioninfo {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    width: 45%;
+    height: 65%;
+    font-size: 0.2vw;
+    color: #aaa9ad;
+}

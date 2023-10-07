@@ -1,0 +1,39 @@
+.aboutPage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutTitle {
+    position: relative;
+    width:100%;
+    height:40%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 3vw;
+    font-weight: 900;
+    color: #f18fb3;
+}
+
+.aboutdes {
+    position: relative;
+    width:90%;
+    height:40%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    color: #d3d2d5;
+    line-height: 3vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutTitle {
+        font-size: 7vw;
+    }
+    .aboutdes {
+        font-size: 3.5vw;
+        line-height: 6vw;
+    }
+}

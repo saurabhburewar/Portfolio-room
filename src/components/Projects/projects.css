@@ -1,0 +1,202 @@
+.projectsPage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.projectCategory {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+.projectCategory1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.projectCategorynav {
+    width: 80%;
+    height: 10%;
+    font-size: 1.6vw;
+    color: #aaa9ad;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+.projectCategorynav:hover {
+    cursor: pointer;
+    color: #f18fb3;
+}
+.catActive {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+
+.projectPages {
+    position: relative;
+    float: left;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.projectPages1 {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 95%;
+}
+#favPage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+.proBox {
+    background: #090811;
+    border-radius: 5px;
+    position: relative;
+    float: left;
+    width: 47%;
+    height: 47%;
+    margin-top: 2%;
+    margin-left: 2%;
+    overflow: hidden;
+}
+.proRight {
+    float: right;
+}
+.proPic {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+}
+.proPic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+.proDesc {
+    position: absolute;
+    background: #090811;
+    width: 100%;
+    height: 100%;
+    top: 70%;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proBox:hover .proDesc {
+    top: 0;
+}
+.proBox:hover .proTitle {
+    color: #f18fb3;
+}
+.proDesc1 {
+    width: 90%;
+    height: 90%;
+}
+.proTitle {
+    width: 100%;
+    height: 25%;
+    font-size: 1.2vw;
+    line-height: 1.6vw;
+    font-weight: 600;
+    color: #aaa9ad;
+    transition-duration: 0.5s;
+}
+.proDateLink {
+    width: 100%;
+    height: 10%;
+}
+.proDate {
+    float: left;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+    font-style: italic;
+    color: #aaa9ad;
+}
+.proLink {
+    background-image: url(../../static/projects/link-01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    width: 6%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proText {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    font-size: 0.8vw;
+    line-height: 1.3vw;
+    color: #aaa9ad;
+}
+
+#mlPage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+#webPage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+#othPage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+@media only screen and (max-width: 600px) {
+    .projectCategory {
+        width: 100%;
+        height: 5%;
+    }
+    .projectCategory1 {
+        align-items: center;
+        flex-direction: row;
+    }
+    .projectCategorynav {
+        width: 100%;
+        height: 100%;
+        font-size: 2.5vw;
+        justify-content: center;
+    }
+    .projectPages {
+        width: 90%;
+    }
+    .proBox {
+        width: 100%;
+    }
+    .proTitle {
+        font-size: 3.6vw;
+        line-height: 6vw;
+    }
+    .proDate {
+        font-size: 3vw;
+    }
+    .proText {
+        font-size: 2.5vw;
+        line-height: 5vw;
+    }
+}

@@ -1,0 +1,171 @@
+.navbar {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    background: #090811;
+    transition-duration: 0.5s;
+    display: flex;
+    flex-direction: column;
+}
+.navbarOpen {
+    width: 75%;
+}
+
+.navPhoto {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navPhotoOpen {
+    height: 20%;
+}
+
+.navImg {
+    background-image: url(../../static/nav/saurabh.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+.navImgOpen {
+    width: 7vw;
+    height: 7vw;
+}
+.nameLabel {
+    background: #090811;
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    color: #f18fb3;
+    font-size: 1.5vw;
+}
+
+.switchBox {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height:40%;
+    display: flex;
+    flex-direction: column;
+}
+.switch {
+    position: relative;
+    width: 100%;
+    height:20%;
+}
+.switch:hover {
+    cursor: pointer;
+}
+.switch:hover .navLabel {
+    color: #f18fb3;
+}
+
+.threeMobile {
+    display: none;
+}
+
+.threeswitch {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:8%;
+}
+.threeswitch:hover .navLabel {
+    color: #f18fb3;
+}
+
+.navIcon {
+    position: absolute;
+    width: 5vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navIcon img {
+    width: 40%;
+}
+.navLabel {
+    position:absolute;
+    width:60%;
+    height: 100%;
+    right: 0;
+    opacity: 0;
+    color: #aaa9ad;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    transition-duration: 0.5s;
+}
+
+.menuBut {
+    display: none;
+}
+.menuBut img {
+    width: 50%
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        position: relative;
+        width: 0%;
+        height: 100%;
+        z-index: 2;
+    }
+    .threeswitch {
+        display: none;
+    }
+    .menuBut {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 6%;
+    }
+    .navbarOpen {
+        width: 1100%;
+    }
+    .navPhoto {
+        display: none;
+    }
+    .navPhotoOpen {
+        display: flex;
+    }
+    .navImgOpen {
+        width: 20vw;
+        height: 20vw;
+    }
+    .nameLabel {
+        font-size: 4vw;
+    }
+    .navIcon {
+        display: none;
+    }
+    .navLabel {
+        width: 100%;
+        justify-content: center;
+    }
+    .switchBox {
+        display: none;
+    }
+    .switchBoxOpen {
+        display: flex;
+    }
+    .threeMobile {
+        display: block;
+    }
+    .navLabel p {
+        text-decoration: line-through;
+    }
+}

@@ -1,0 +1,237 @@
+.skillsPage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.Langsection {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+.LangBox {
+    background: #090811;
+    width: 95%;
+    height: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.LangHead {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f18fb3;
+    font-size: 1.5vw;
+}
+.LangList {
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+
+.LangItem {
+    width: 17%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.LangImg {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LangImg img {
+    width: 30%;
+}
+.LangText {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    color: #aaa9ad;
+}
+
+.Mlsection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.Websection {
+    position: absolute;
+    top: 0;
+    right: 30%;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.Otherssection {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.MLBox {
+    background: #090811;
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.WebBox {
+    background: #090811;
+    width: 85%;
+    height: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MLHead {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f18fb3;
+    font-size: 1.5vw;
+}
+
+.MLList {
+    width: 80%;
+    height: 60%;
+}
+
+.MLItem {
+    width: 20%;
+    height: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.WebItem {
+    width: 49%;
+    height: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.OthersItem {
+    width: 33%;
+    height: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.MLImg {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MLImg img {
+    width: 60%;
+}
+
+.WebImg {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.WebImg img {
+    width: 40%;
+}
+
+.MLText {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8vw;
+    color: #aaa9ad;
+}
+
+@media only screen and (max-width: 600px) {
+    .skillsPage {
+        position: relative;
+        overflow: scroll;
+    }
+    .Langsection {
+        position: relative;
+        width: 100%;
+        height: 25%;
+    }
+    .LangBox {
+        width: 90%;
+    }
+    .LangHead {
+        font-size: 3.5vw;
+    }
+    .LangImg img {
+        width: 40%;
+    }
+    .LangText {
+        font-size: 2.5vw;
+        color: #aaa9ad;
+    }
+    .Mlsection {
+        position: relative;
+        width: 100%;
+        height: 45%;
+    }
+    .MLBox {
+        height: 90%;
+    }
+    .Websection {
+        position: relative;
+        right: 0;
+        width: 100%;
+        height: 45%;
+    }
+    .WebBox {
+        width: 90%;
+        height: 90%;
+    }
+    .WebImg img {
+        width: 30%;
+    }
+    .Otherssection {
+        position: relative;
+        width: 100%;
+        height: 50%;
+    }
+    .MLHead {
+        font-size: 3.5vw;
+    }
+    .MLText {
+        font-size: 2.5vw;
+    }
+}

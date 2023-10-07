@@ -1,0 +1,92 @@
+.threeApp {
+    border: 1px solid red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    outline: none;
+}
+
+.threed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    outline: none;
+}
+
+.laptopContent {
+    width: 3.5vw;
+    height: 5vh;
+    font-size: 2vw;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.threeMenu {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 10%, rgba(0, 0, 0, 0.9) 30%, rgba(0, 0, 0, 0.1));
+    position: fixed;
+    top : 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    outline: none;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.threeMenuClosed{
+    display: none;
+}
+
+.threeMenuBox {
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+    color: #f18fb3;
+}
+.threeMenuBox p {
+    font-size: 1vw;
+    color: #d3d2d5;
+}
+.threeMenuReturn button {
+    width: 20%;
+    height: 100%;
+    border-radius: 5px;
+    background: #0f0e1d;
+    outline: none;
+    border: 2px solid #d3d2d5;
+    color: #d3d2d5;
+    transition-duration: 0.5s;
+    font-size: 1vw;
+    font-weight: 700;
+}
+.threeMenuReturn button:hover {
+    cursor: pointer;
+    background: #d3d2d5;
+    color: #0f0e1d;
+}
+
+
+
+.crosshair {
+    border: 2px solid #fff;
+    position: fixed;
+    width: 5px;
+    height: 5px;
+    top: 45%;
+    left: 45%;
+    border-radius: 50%;
+    z-index: 10;
+    display: none;
+}
+.crosshairShow {
+    display: block;
+}

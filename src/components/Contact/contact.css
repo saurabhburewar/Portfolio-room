@@ -1,0 +1,88 @@
+.contactPage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactBlock {
+    position: relative;
+    width: 60%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactItem {
+    position: relative;
+    width: 100%;
+    height: 25%;
+}
+.contactItem:hover .contactItemLabel {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.contactItemIcon {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactItemIcon img {
+    width: 40%;
+}
+.contactItemIcon::after {
+    content: "";
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background: #fff;
+    filter: blur(1vw);
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.contactItem:hover .contactItemIcon::after {
+    opacity: 1;
+}
+
+.contactItemLabel {
+    position: relative;
+    float: right;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    color: #d3d2d5;
+}
+.mLabel p {
+    color: #ea4335;
+}
+.lnLabel p {
+    color: #0a66c2;
+}
+
+.ghLabel p {
+    color: #7040c9;
+}
+.iLabel p {
+    color: #ce3d8c;
+}
+
+@media only screen and (max-width: 600px) {
+    .contactBlock {
+        width: 100%;
+        height: 50%;
+    }
+    .contactItemLabel {
+        width: 80%;
+        font-size: 3.5vw;
+    }
+}

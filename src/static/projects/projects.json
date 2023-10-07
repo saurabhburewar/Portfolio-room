@@ -1,0 +1,143 @@
+{
+  "Favourites": [
+    {
+      "Title": "Mapping RGB face video data to core body temperature",
+      "Date": "DEC 2020 - JUN 2021",
+      "Description": "Experimented with various Convolutional neural network approaches to predict core body temperature from the NIR and RGB face image data. Also, used various approches with CNNs to generate a suitable and acceptable NIR image from RGB image for further use in temperature prediction.",
+      "Pic": "images/projects/rgbtonir.PNG",
+      "Link": "https://github.com/saurabhburewar/ML_Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK"
+    },
+    {
+      "Title": "Hashtag Analysis",
+      "Date": "AUG 2021 - NOV 2021",
+      "Description": "Pulling Tweet data using Twitter API and Web-scraping posts from Koo (twitter-like social media) to create networks around popular social topics. Analyse networks to understand the spread of topics and movements in a social network and learn about patterns that make a movement successful.",
+      "Pic": "images/projects/hashtag.png",
+      "Link": "https://saurabhburewar.github.io/Data-and-Networks_Hashtag-analysis/"
+    },
+    {
+      "Title": "The Learners Tab",
+      "Date": "JUL 2020 - DEC 2020",
+      "Description": "Researching existing products and getting customer requirements from university students, especially programmers. Building the app using React, Node and various public APIs.",
+      "Pic": "images/projects/learningtab.png",
+      "Link": "https://saurabhburewar.github.io/Web_TheLearnersTab/"
+    },
+    {
+      "Title": "Parsing Large scale bibliography data",
+      "Date": "JAN 2020 - MAY 2020",
+      "Description": "Pulling data from a PubMed database and parsing required information into CSV files. Building Networks as larger as 122 million nodes from the parsed data for further analysis.",
+      "Pic": "images/projects/parse.png",
+      "Link": "https://github.com/saurabhburewar/Data-and-Networks_ParsingLargeBibliographyData"
+    }
+  ],
+  "Ml": [
+    {
+      "Title": "Mapping RGB face video data to core body temperature",
+      "Date": "DEC 2020 - JUN 2021",
+      "Description": "Experimented with various Convolutional neural network approaches to predict core body temperature from the NIR and RGB face image data. Also, used various approches with CNNs to generate a suitable and acceptable NIR image from RGB image for further use in temperature prediction.",
+      "Pic": "images/projects/rgbtonir.PNG",
+      "Link": "https://github.com/saurabhburewar/ML_Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK"
+    },
+    {
+      "Title": "English to Hindi Language translation",
+      "Date": "JAN 2022 - MAY 2022",
+      "Description": "Explored and Experimented with various Transformer-based and Recurrent Neural Network models and referenced multiple researches of state-of-the-art Machine Translation models to build a model that can perform machine translation from English to Hindi Language.",
+      "Pic": "images/projects/engtohindi.JPG",
+      "Link": "https://github.com/saurabhburewar/ML_English-to-Hindi-Language-translation"
+    },
+    {
+      "Title": "Test Case Prioritization",
+      "Date": "JAN 2022 - APR 2022",
+      "Description": "Implemented a research, taking prioritizing test cases in a CI context as a Ranking problem and modelling a prioritizing agent in a CI environment as a Reinforcement Learning Problem. This uses one of the ranking approches discussed in the researchto build the learning model.",
+      "Pic": "images/projects/testcase.JPG",
+      "Link": "https://github.com/saurabhburewar/ML_RL-test-case-prioritization"
+    },
+    {
+      "Title": "Hashtag Analysis",
+      "Date": "AUG 2021 - NOV 2021",
+      "Description": "Pulling Tweet data using Twitter API and Web-scraping posts from Koo (twitter-like social media) to create networks around popular social topics. Analyse networks to understand the spread of topics and movements in a social network and learn about patterns that make a movement successful.",
+      "Pic": "images/projects/hashtag.png",
+      "Link": "https://saurabhburewar.github.io/Data-and-Networks_Hashtag-analysis/"
+    },
+    {
+      "Title": "Parsing Large scale bibliography data",
+      "Date": "JAN 2020 - MAY 2020",
+      "Description": "Pulling data from a PubMed database and parsing required information into CSV files. Building Networks as larger as 122 million nodes from the parsed data for further analysis.",
+      "Pic": "images/projects/parse.png",
+      "Link": "https://github.com/saurabhburewar/Data-and-Networks_ParsingLargeBibliographyData"
+    },
+    {
+      "Title": "Reinforcement Learning - TicTacToe",
+      "Date": "JAN 2022 - APR 2022",
+      "Description": "This is a simple implementation of a Reinforcement Learning agent that learns without any neural network, future searches, possible outcomes, etc. but by simple trials. This allows good performace with less computational power in simple games.",
+      "Pic": "images/projects/tictactoe.JPG",
+      "Link": "https://github.com/saurabhburewar/ML_RL-TicTacToe"
+    }
+  ],
+  "Web": [
+    {
+      "Title": "The Learners Tab",
+      "Date": "JUL 2020 - DEC 2020",
+      "Description": "Researching existing products and getting customer requirements from university students, especially programmers. Building the app using React, Node and various public APIs.",
+      "Pic": "images/projects/learningtab.png",
+      "Link": "https://saurabhburewar.github.io/Web_TheLearnersTab/"
+    },
+    {
+      "Title": "New Portfolio Website",
+      "Date": "AUG 2023 - SEP 2023",
+      "Description": "",
+      "Pic": "",
+      "Link": ""
+    },
+    {
+      "Title": "Portfolio Website",
+      "Date": "DEC 2021",
+      "Description": "A simple Protfolio design to showcase your skills, projects and experience, used by me in the past",
+      "Pic": "images/projects/portfolio.JPG",
+      "Link": "https://saurabhburewar.github.io/"
+    },
+    {
+      "Title": "Github Repo Organizer",
+      "Date": "OCT 2021",
+      "Description": "A simple yet great way to organize your repositories in github. This supports automatic grouping of the repos based on a specified naming convention and an easy-to-navigate view which makes it easy to go through your repositories",
+      "Pic": "images/projects/repoOrg.JPG",
+      "Link": "https://saurabhburewar.github.io/GitRepoOrganizer/"
+    },
+    {
+      "Title": "Art Showcasing Website",
+      "Date": "DEC 2022 -",
+      "Description": "A Website design for Art showcase that support user authentication, categorizing, tags, likes, etc using React and firebase. [In-progress]",
+      "Pic": "",
+      "Link": "/"
+    },
+    {
+      "Title": "3D Room Design",
+      "Date": "JUL 2023",
+      "Description": "A simple 3d room design made entirely using HTML and CSS, without any Javascript or 3D libraries like threejs.",
+      "Pic": "images/projects/room.png",
+      "Link": "https://qwertypencils.github.io/Room/"
+    }
+  ],
+  "Others": [
+    {
+      "Title": "Remote Mouse",
+      "Date": "SEP 2020 - NOV 2020",
+      "Description": "An android application to use on an android phone as an air mouse pointer for a computer. Uses bluetooth to transfer data to the computer server from android device through sockets.",
+      "Pic": "images/projects/mouse.PNG",
+      "Link": "https://github.com/RiturajKulshresth/mouse"
+    },
+    {
+      "Title": "X-86 Architecture Operating System",
+      "Date": "MAR 2021 - MAY 2021",
+      "Description": "Built a basic operating system which boots in 32-bit mode and has a keyboard driver for inputs and VGA driver for output. Also has a shell which performs very basic tasks.",
+      "Pic": "images/projects/OS.png",
+      "Link": "https://github.com/RiturajKulshresth/OS"
+    },
+    {
+      "Title": "Edge based knowledge inference for intelligent vehicular networks",
+      "Date": "AUG 2022 - JAN 2022",
+      "Description": "Experimented with approaches to reduce the amount of data transfered between vehicles and Road-Side-Units(RSUs) to reduce the processing power required at RSUs and make it possible to perform calculations on Lower layers instead of data transfers at higher levels.",
+      "Pic": "images/projects/sumo.JPG",
+      "Link": "https://github.com/RiturajKulshresth/Edge-based-knowledge-inference-for-intelligent-vehicular-networks-ns3-SUMO"
+    }
+  ]
+}

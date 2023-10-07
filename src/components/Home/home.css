@@ -1,0 +1,31 @@
+.home {
+    position: fixed;
+    background: #0f0e1d;
+    width: 100%;
+    height: 100%;
+}
+
+.navContainer {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+.infoContainer {
+    position: relative;
+    float: right;
+    width: 70%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .navContainer {
+        width: 9%;
+        height: 100%;
+    }
+    .infoContainer {
+        width: 90%;
+        height: 100%;
+    }
+}

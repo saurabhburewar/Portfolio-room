@@ -1,0 +1,68 @@
+.content {
+    width: 8.4vw;
+    height: 9.8vh;
+    background: radial-gradient(circle, #0f0e1d, rgba(0, 0, 0, 0.95));
+    border-radius: 3px;
+    font-size: 2vw;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.monitorscreen {
+    position: relative;
+    background: radial-gradient(circle, #0f0e1d, rgba(0, 0, 0, 0.95));
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monitorbox {
+    position: relative;
+    width: fit-content;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.monitorline {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 1%;
+    background: #aaa9ad;
+}
+
+.monitorpost {
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.monitoricon {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 30%;
+    border-radius: 50%;
+    background: #aaa9ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.monitoricon img {
+    position: absolute;
+    width: 90%;
+    border-radius: 50%;
+}
+
+.monitordate {
+    position: absolute;
+    width: 40px;
+    font-size: 0.4vw;
+    bottom: 0;
+    left: 15%;
+    color: #aaa9ad;
+}
