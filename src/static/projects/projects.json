@@ -84,9 +84,9 @@
     {
       "Title": "New Portfolio Website",
       "Date": "AUG 2023 - SEP 2023",
-      "Description": "",
-      "Pic": "",
-      "Link": ""
+      "Description": "A portfolio website built on react-three-fiber (a react renderer for Three.js). It has a 3D office room design which can be explored and has portfolio details displayed in objects around the room. Starts with a normal 2D portfolio website on home URL with the 3D website accessible a another route.",
+      "Pic": "images/projects/portfolio_three.JPG",
+      "Link": "https://saurabhburewar.vercel.app/"
     },
     {
       "Title": "Portfolio Website",
@@ -106,7 +106,7 @@
       "Title": "Art Showcasing Website",
       "Date": "DEC 2022 -",
       "Description": "A Website design for Art showcase that support user authentication, categorizing, tags, likes, etc using React and firebase. [In-progress]",
-      "Pic": "",
+      "Pic": "images/projects/showcase.JPG",
       "Link": "/"
     },
     {
