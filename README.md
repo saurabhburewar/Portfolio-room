@@ -2,7 +2,7 @@
 
 A website with an option to go 3D.
 
-Visit - https://saurabhburewar.vercel.app/
+Visit - https://saurabhburewar3d.vercel.app/
 
 ## Tech Stack
 
